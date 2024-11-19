@@ -36,4 +36,41 @@ export const ClientConfig = {
     },
     font: 'Arial, Helvetica, sans-serif',
   }
+  // clientName: 'Moretti',
+  // clientUrl: 'https://alleata.com',
+  // clientApiUrl: 'https://api.alleata.com',
+  // theme: {
+  //   logo: '/logos/moretti.png',
+  //   colors: {
+  //     primary: {
+  //       base: '#cf2e2e',
+  //       '50': '#fdf3f3',
+  //       '100': '#fce4e4',
+  //       '200': '#fbcdcd',
+  //       '300': '#f7aaaa',
+  //       '400': '#f07979',
+  //       '500': '#e54e4e',
+  //       '600': '#cf2e2e',
+  //       '700': '#b02525',
+  //       '800': '#922222',
+  //       '900': '#792323',
+  //       '950': '#410e0e',
+  //   },    
+  //     secondary: {
+  //       base: '#007f99',
+  //       '50': '#eafffe',
+  //       '100': '#cafffe',
+  //       '200': '#9cfeff',
+  //       '300': '#57fcff',
+  //       '400': '#0ceeff',
+  //       '500': '#00d1ea',
+  //       '600': '#00a5c4',
+  //       '700': '#007f99',
+  //       '800': '#0b687f',
+  //       '900': '#0e566b',
+  //       '950': '#02394a',
+  //   },
+  //   },
+  //   font: 'Arial, Helvetica, sans-serif',
+  // }
 }

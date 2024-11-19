@@ -20,26 +20,29 @@ export default function Home() {
       </section>
 
       {/* Left Pane */}
-      <section className="flex-[4] flex flex-col bg-primary-50 p-8 rounded-2xl">
-        <header className="text-primary-base">
-          <h2 className="text-3xl font-semibold">Crear cuenta</h2>
-          <p className="text-xl">Creá tu usuario y contraseña para ingresar a tu Panel Merchant.</p>
-        </header>
+      <section className="flex-[4] flex items-center justify-center bg-primary-50 p-8 rounded-2xl">
+        <div className="flex flex-col justify-center gap-4 w-4/5">
+          <header className="text-primary-base mb-4">
+            <h2 className="text-3xl font-semibold">Crear cuenta</h2>
+            <p className="text-xl mt-2">Creá tu usuario y contraseña para ingresar a tu Panel Merchant.</p>
+          </header>
 
-        <InputField label="Email *" placeholder="ejemplo@gmail.com" type="email" />
+          <div className="flex flex-col gap-4">
+            <InputField label="Email *" placeholder="ejemplo@gmail.com" type="email" />
 
-        <InputField label="Contraseña *" placeholder="Creá una contraseña" type="password" />
+            <InputField label="Contraseña *" placeholder="Creá una contraseña" type="password" />
 
-        <InputField label="Repetir contraseña *" placeholder=" Repetir contraseña" type="password" />
+            <InputField label="Repetir contraseña *" placeholder=" Repetir contraseña" type="password" />
+          </div>
 
+          <footer className="mt-[10vh]">
+            <Button size="large" variant="primary" text="Iniciar" />
 
-        <footer className="mt-auto">
-          <Button size="large" variant="primary" text="Iniciar" />
-
-          <p className="text-center">
-            ¿Ya tenés una cuenta? <LinkText href="/login">Iniciá sesión</LinkText>
-          </p>
-        </footer>
+            <p className="text-center mt-4">
+              ¿Ya tenés una cuenta? <LinkText href="/login">Iniciá sesión</LinkText>
+            </p>
+          </footer>
+        </div>
       </section>
     </main>
   );
