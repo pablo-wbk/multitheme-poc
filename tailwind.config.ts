@@ -1,5 +1,10 @@
 import type { Config } from "tailwindcss";
 
+import { ClientConfig } from "./clientConfig";
+
+const primaryColor = ClientConfig.theme.colors.primary;
+const secondaryColor = ClientConfig.theme.colors.secondary;
+
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +16,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+        primary: primaryColor,
+        secondary: secondaryColor,
+      }
     },
   },
   plugins: [],
